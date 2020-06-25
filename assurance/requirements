@@ -1,0 +1,12 @@
+historique => bonus, coef, pourcentage pour lequel on doit multiplier sa prime d'assurance
+calcul coef standard
+prime coef = 100% de son assurance => paie tout
+pendant 1 an aps accident, date anniv contrat, 5% moins cher sur prime de depart
+ex
+alexandre, 1 an de contrat a partir de la date anniv, pas accident, 100 => 95
+
+chaque annee sup, 5% enleve du bonus sans accident, par exemple, au bout de 5 ans, 76%
+regle : deux chiffres significatifs apres la virgule
+exemple d'arrondi de chiffres significatifs apres la virugle :
+coef mutiplicateur de 1, puis 0.95, deux ans, 0.90 et la raison => 2 nombres significatifs apres la virgule
+faire calcul un an, deux ans et au bout de cinq ans, changement d'arrondi
