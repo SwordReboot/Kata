@@ -10,3 +10,16 @@ regle : deux chiffres significatifs apres la virgule
 exemple d'arrondi de chiffres significatifs apres la virugle :
 coef mutiplicateur de 1, puis 0.95, deux ans, 0.90 et la raison => 2 nombres significatifs apres la virgule
 faire calcul un an, deux ans et au bout de cinq ans, changement d'arrondi
+
+usecase accident => arrive a une date, driver 100% responsable
++25% au "bonus"
+exemple : 80% passe a 100%
+200% passe a 250%
+100% passe a 125%
+
+nouveau usecase :
+2018 => accident => 125
+2019 => gagne pas 5% => toujours a 125%
+2020 => gagne 5% car pas accident => 118%
+
+ca fonctionne pas, faut fix //TODO
